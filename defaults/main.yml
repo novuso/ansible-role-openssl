@@ -1,0 +1,23 @@
+---
+# openssl_self_signed
+# - name: "local"                                #required
+#   days: "3650"                                 #default
+#   bits: "2048"                                 #default
+#   country: "USA"                               #omitted
+#   state: "TX"                                  #omitted
+#   city: "San Antonio"                          #omitted
+#   organization: "Acme"                         #omitted
+#   unit: "web"                                  #omitted
+#   domains: ["local.dev"]                       #omitted
+#   email: "web@email.com"                       #omitted
+openssl_self_signed: []
+# openssl_import_keys
+# - name: "local"                                #required
+#   content: "..."                               #required
+openssl_import_keys: []
+# openssl_import_certs
+# - name: "local"                                #required
+#   content: "..."                               #required
+openssl_import_certs: []
+openssl_keys_path: "/srv/ssl/private"
+openssl_certs_path: "/srv/ssl/certs"

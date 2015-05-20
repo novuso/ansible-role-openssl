@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars:
+  - openssl_self_signed:
+    - name: "local"
+      country: "USA"
+      domains:
+      - "localhost"
+  roles:
+  - ansible-role-openssl
