@@ -3,7 +3,8 @@
   vars:
   - openssl_self_signed:
     - name: "local"
-      country: "USA"
+      country: "US"
+      bits: "1024"
       domains:
       - "localhost"
   roles:

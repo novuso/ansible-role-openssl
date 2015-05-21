@@ -3,7 +3,7 @@
 # - name: "local"                                #required
 #   days: "3650"                                 #default
 #   bits: "2048"                                 #default
-#   country: "USA"                               #omitted
+#   country: "US"                                #omitted
 #   state: "TX"                                  #omitted
 #   city: "San Antonio"                          #omitted
 #   organization: "Acme"                         #omitted
